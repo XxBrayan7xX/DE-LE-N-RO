@@ -1,5 +1,5 @@
 # Modelo de caja
-**Definición**
+**Definición**  
 El modelo de caja es la manera en que se representan todos los elementos html en una página.   
 Cada elemento genera una caja, el comportamiento de esa caja depende de su clasificación: si es de línea o de bloque.
 ## ¿Qué es el modelo de caja CSS?
