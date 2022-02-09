@@ -8,7 +8,7 @@ usan una parte del comportamiento definido del modelo de cajas. El modelo define
 de una caja: margen, borde, relleno y contenido*, para crear una caja que puedas ver en tu página. Hay un modelo de cajas estándar
 y un modelo alternativo.
 ## Partes de una caja 
-El tipo bloque en CSS tiene los siguientes elementos:  
+El tipo bloque en CSS tiene los siguientes elementos:
    1.**El contenido de la caja(*content box*):** El área donde se muestra el contenido, cuyo tamaño puede cambiarse utilizando propiedades como
    "width" y "height".  
    2.**El relleno de la caja (*padding box*):** Es espacio en blanco alrededor del contenido, es posible controlar su tamaño usando la propiedad "padding"
