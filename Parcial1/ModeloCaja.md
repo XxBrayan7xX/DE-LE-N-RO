@@ -10,7 +10,7 @@ y un modelo alternativo.
 ## Partes de una caja 
 El tipo bloque en CSS tiene los siguientes elementos:
    1. **El contenido de la caja:** El área donde se muestra el contenido, cuyo tamaño puede cambiarse utilizando propiedades como
-   "width" y "height".
+   "width" y "height".  
    2.**El relleno de la caja:** Es espacio en blanco alrededor del contenido, es posible controlar su tamaño usando la propiedad "padding"
-   y otras propiedades relacionadas.
+   y otras propiedades relacionadas.  
    3.**El borde de la caja (*border box*):**
