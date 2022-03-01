@@ -1,0 +1,20 @@
+*{
+    margin 0;
+    padding 0;
+}
+
+table, th, td {
+    border: 3px solid blue;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+tr:nth-of-type(odd) { /* Estilo Zebra para las filas */
+    background: #90EE90;
+}
