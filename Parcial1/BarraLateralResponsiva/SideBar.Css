@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.enlacesGato {
+    position: fixed;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    font-size: x-large;
+}
+
+.enlacesGato > a {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aqua
+}
+
+a {
+    display: block;
+    text-decoration: dashed;
+    padding: 5px;
+}
+
+
+    a:hover {
+        background-color: mediumpurple;
+        color: white;
+    }
+
+div.razaGato {
+    background-color: #E4717A;
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1500px;
+}
+
+.razaGato > div {
+    border: 2px solid red;
+    border-collapse: collapse;
+    background-color: hotpink;
+    font-size: xx-large;
+}
+
+#bengala,
+#bombay,
+#burmilla,
+#balines {
+    display: none;
+}
+
+    #bengala:target,
+    #bombay:target,
+    #burmilla:target,
+    #balines:target {
+        display: block;
+    }
+
+@media screen and (max-width: 1000px) {
+    div.enlacesGato {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .enlacesGato a {
+        float: left;
+    }
+
+    div.razaGato {
+        margin-left: 0;
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .enlacesGato a {
+        float: none;
+        text-align: center;
+    }
+}
