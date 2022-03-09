@@ -36,10 +36,11 @@ div.razaGato {
     margin-left: 200px;
     padding: 1px 16px;
     height: 1500px;
+    border:1px solid lime;
 }
 
 .razaGato > div {
-    border: 2px solid red;
+    border: 3px solid red;
     border-collapse: collapse;
     background-color: hotpink;
     font-size: xx-large;
@@ -72,7 +73,7 @@ div.razaGato {
 
     div.razaGato {
         margin-left: 0;
-        border: 2px solid black;
+        border: 2px solid green;
         border-collapse: collapse;
     }
 }
@@ -81,5 +82,9 @@ div.razaGato {
     .enlacesGato a {
         float: none;
         text-align: center;
+    }
+    div.razaGato {
+        border: 2px solid green;
+        border-collapse: collapse;
     }
 }
