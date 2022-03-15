@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: mediumpurple;
+   /* flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+
+.box{
+    width: 150px;
+   /* height: 150px;*/
+    background-color: slategrey;
+    margin: 10px;
+    text-align:justify;
+}
