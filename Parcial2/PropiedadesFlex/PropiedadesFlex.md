@@ -17,7 +17,7 @@ Mozilla a estas cajas flexibles las llama el Diseño del Santo Grial, flex soluci
 |        **_flex-wrap_**        |varias líneas. Si la cobertura (wrap) está permitida, esta         |wrap-reverse                     |
 |                               |propiedad también te permite controlar la dirección en la cual     |inherit                          |
 |                               |serán apilados los elementos.                                      |                                 |
-|-------------------------------|:-----------------------------------------------------------------:|---------------------------------|
+|-------------------------------|___________________________________________________________________|
 |                               |                                                                   |inherit, initial, unset,         |                        
 |                               |                                                                   |nowrap, wrap, wrap-reverse,      |
 |                               |Se pueden combinar las propiedades flex-direction y flex-wrap en   |row, row-reverse,                |
