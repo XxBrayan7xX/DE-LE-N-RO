@@ -1,9 +1,9 @@
-#**Propiedades Flex**  
+#Propiedades Flex  
 **Para que sirven?**  
 La propiedad de display flex, ayuda a colocar las cajas como si fueran celdas de tablas, con un comportamiento predecible y adaptable.   
 Mozilla a estas cajas flexibles las llama el Diseño del Santo Grial, flex soluciona problemas de control del diseño y se adpata facilmente a los diferentes dispositivos.  
 
-##**PADRES (CONTAINER)**  
+##PADRES (CONTAINER)  
 |         **Propiedad**         |          <font color = blue>**Que hace**</font>                   |             **Valor**           |
 |-------------------------------|-------------------------------------------------------------------|---------------------------------|
 |                               |Permite cambiar la dirección de cómo los ítems son desplegados.    |row, row-reverse, colum, initial |                
@@ -29,7 +29,7 @@ Mozilla a estas cajas flexibles las llama el Diseño del Santo Grial, flex soluci
 
 
 
-##**HIJOS (ITEMS)**  
+##HIJOS (ITEMS)  
 |         **Propiedad**         |                              **Que hace**                         |             **Valor**           |
 |-------------------------------|-------------------------------------------------------------------|---------------------------------|
 |                               |Con flex-basis se define el tamaño de un ítem en términos del      | (10)em, (3)px, auto, content    |        
