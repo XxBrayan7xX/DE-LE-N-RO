@@ -11,7 +11,7 @@ Mozilla a estas cajas flexibles las llama el Diseño del Santo Grial, flex soluci
 |                               |La propiedad CSS flex-direction especifica cómo colocar los objetos|column-reverse, inherit,unset    |
 |                               |flexibles en el contenedor flexible definiendo el eje principal y  |                                 |
 |                               |la dirección (normal o al revés).                                  |                                 |
-|-------------------------------|-------------------------------------------------------------------|---------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------|
 |                               |La propiedad flex-wrap de CSS  especifica si los elementos "hijos" |nowrap                           |
 |                               |son obligados a permanecer en una misma línea o pueden fluir en    |wrap                             |
 |        **_flex-wrap_**        |varias líneas. Si la cobertura (wrap) está permitida, esta         |wrap-reverse                     |
