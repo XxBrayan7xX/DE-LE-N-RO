@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.enlacesGato {
+    position: fixed;
+    background-color: cornflowerblue;
+    width: 200px;
+    font-size: x-large;
+    display: flex;
+    flex-direction:column
+}
+
+.enlacesGato > a {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aqua
+}
+
+a {
+    display: flex;
+    text-decoration: dashed;
+    padding: 5px;
+}
+
+
+    a:hover {
+        background-color: mediumpurple;
+        color: white;
+    }
+
+div.razaGato {
+    background-color: #E4717A;
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1500px;
+    border: 1px solid lime;
+}
+
+.razaGato > div {
+    border: 3px solid red;
+    border-collapse: collapse;
+    background-color: hotpink;
+    font-size: xx-large;
+}
+
+#bengala,
+#bombay,
+#burmilla,
+#balines {
+    display: none;
+}
+
+    #bengala:target,
+    #bombay:target,
+    #burmilla:target,
+    #balines:target {
+        display: flex;
+    }
+
+@media screen and (max-width: 1000px) {
+    div.enlacesGato {
+       flex-direction: row;
+
+        width: 100%;
+        height: auto;
+    }
+
+    .enlacesGato a {
+        float: left;
+    }
+
+    div.razaGato {
+        margin-left: 0;
+        border: 2px solid green;
+        border-collapse: collapse;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .enlacesGato a {
+        flex-flow: column;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    div.razaGato {
+        border: 2px solid green;
+        border-collapse: collapse;
+
+    }
+}
