@@ -64,8 +64,7 @@ div.razaGato {
     div.enlacesGato {
        flex-direction: row;
 
-        width: 100%;
-        height: auto;
+
     }
 
     .enlacesGato a {
@@ -80,16 +79,19 @@ div.razaGato {
 }
 
 @media screen and (max-width: 500px) {
+    div.enlacesGato {
+        flex-direction: column;
+       /* width: 100%;
+        height: auto;*/
+    }
     .enlacesGato a {
-        flex-flow: column;
+        
         text-align: center;
-        width: 100%;
-
     }
 
     div.razaGato {
+        height: auto;
         border: 2px solid green;
         border-collapse: collapse;
-
     }
 }
