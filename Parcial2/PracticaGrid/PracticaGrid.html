@@ -9,12 +9,21 @@
     <title></title>
 </head>
 <body>
-    <div class="contenedor">
+    <div id="ContenedorGeneral" class="contenedor">
         <div id="caja1" class="caja">caja 1</div>
         <div id="caja2" class="caja">caja 2</div>
         <div id="caja3" class="caja">caja 3</div>
         <div id="caja4" class="caja">caja 4</div>
         <div id="caja5" class="caja">caja 5</div>
     </div>
+    <script>
+        window.onload = function() {
+            document.getElementById("ContenedorGeneral").addEventListener("click",function(evento) {
+                console.log(evento.target.id);
+                document.getElementById(evento.target.id).classList.toggle("cajaAzul");
+            });
+        }
+
+    </script>
 </body>
 </html>

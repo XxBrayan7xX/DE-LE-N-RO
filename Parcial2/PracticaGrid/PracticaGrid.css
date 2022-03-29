@@ -26,3 +26,6 @@ align-content:center;
  /*grid-column: 1/ span 3;*/
     background-color: darkslategrey;
 }
+.cajaAzul{
+    background-color: blue;
+}
