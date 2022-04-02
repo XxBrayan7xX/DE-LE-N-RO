@@ -30,4 +30,19 @@ Para ello se utiliza el metodo *event.stopPropagation()*.
 Esto no es recomendale a menos qe se tenga una necesidad real, obvia y arquitectonicamente bien pensada. Ya que podria convertirse   
 en un problema a la hora ade querer realizar otras acciones.
 
+## Captura  (catching):  
+Es rara usarle en codigo real, pero a veces puede er util.  
+El estandar de evendos del DOM describe 3 fases de la propagacion de eventos:  
+1. Fase de capatura: El evento desciende al elemento.
+2. Fase de objetivo: El evento alcanza al elemento.  
+3. Fase de propagacion: El evento se propaga hacia arriba del elemento.  
+Los manejadores agragados usando la propiedad on{event} o usaando atributos HTML o *addEventListener(event, handler)*  
+con dos argumentos no ejecutaran la fase de captura, unicamente ejecutaran la segunda y tercera fase.
 
+Para atrapaar un evento en la fase de captura, necesitamos preparar la opcion *capture* como *true* en el manejador.  
+*elem.addEventListener(...,{cature:true})*  
+--*//la forma abreviada de codificar esto seria:*  
+*elem.addEventListener(..., true)*  
+Hay dos posibles valores para la opcion capture: 
+* Si es *false* (opcion por defecto), entonces el manejador es preparado para laa fase de propagacion.  
+* Si es *true*, entonces el manejador el preparado para la fase de captura.
