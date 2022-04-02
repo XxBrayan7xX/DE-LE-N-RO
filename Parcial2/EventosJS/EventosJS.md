@@ -1,4 +1,4 @@
-*Brayan Asahel De León Romero 19100166-----(En este documento se sustituyo <> por {}*  
+*Brayan Asahel De León Romero 19100166-----(En este documento se sustituyo <> por {} Excepto en {capture: true})*  
 # Proceso de captura y propagación  
 Lo podemos entender mejor con un ejemplo.  
 Este manejador está asignado a {div}, pero tambien se ejecuta si haces click en cualquier elemento anidado como {em} o {code}.  
