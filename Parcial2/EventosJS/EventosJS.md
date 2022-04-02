@@ -1,4 +1,4 @@
-*Brayan Asahel De León Romero 19100166*  
+*Brayan Asahel De León Romero 19100166-----(En este documento se sustituyo <> por {}*  
 # Proceso de captura y propagación  
 Lo podemos entender mejor con un ejemplo.  
 Este manejador está asignado a {div}, pero tambien se ejecuta si haces click en cualquier elemento anidado como {em} o {code}.  
@@ -36,13 +36,13 @@ El estandar de evendos del DOM describe 3 fases de la propagacion de eventos:
 1. Fase de capatura: El evento desciende al elemento.
 2. Fase de objetivo: El evento alcanza al elemento.  
 3. Fase de propagacion: El evento se propaga hacia arriba del elemento.  
-Los manejadores agragados usando la propiedad on{event} o usaando atributos HTML o *addEventListener(event, handler)*  
+Los manejadores agragados usando la propiedad *on{event}* o usaando atributos HTML o *addEventListener(event, handler)*  
 con dos argumentos no ejecutaran la fase de captura, unicamente ejecutaran la segunda y tercera fase.
 
 Para atrapaar un evento en la fase de captura, necesitamos preparar la opcion *capture* como *true* en el manejador.  
-*elem.addEventListener(...,{cature:true})*  
+*elem.addEventListener(..., {capture: true})*  
 --*//la forma abreviada de codificar esto seria:*  
 *elem.addEventListener(..., true)*  
 Hay dos posibles valores para la opcion capture: 
-* Si es *false* (opcion por defecto), entonces el manejador es preparado para laa fase de propagacion.  
+* Si es *false* (opcion por defecto), entonces el manejador es preparado para la fase de propagacion.  
 * Si es *true*, entonces el manejador el preparado para la fase de captura.
