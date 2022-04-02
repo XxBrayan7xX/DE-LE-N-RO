@@ -7,9 +7,9 @@ Cuando un evento ocurre en un elemento, este primero ejecuta los manejadores que
 luego los manejadores de su padre, y asi hasta otros ancestros.  
 Digamos que tenemos 3 elementos anidados FORM > DIV > P con un manejador cada uno de ellos:  
 *{form onclick=...}FORM*  &nbsp;   
-  *{div onclick=...}DIV*   
-     *{p onclick=...{P{/p}*    
-  *{/div}*  
+--*{div onclick=...}DIV*   
+----*{p onclick=...{P{/p}*    
+--*{/div}*  
 *{/form}*  
 
 
