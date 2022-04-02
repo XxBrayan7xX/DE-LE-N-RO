@@ -11,6 +11,10 @@ Digamos que tenemos 3 elementos anidados FORM > DIV > P con un manejador cada un
 ----*{p onclick=...{P{/p}*    
 --*{/div}*  
 *{/form}*  
-
+Un clic en el elemento del interior {p} primero ejecuta onclick:  
+1. En ese {p}.  
+2. Luego en el {div} de arriba.  
+3. Luego en el {form} de más arriba.  
+4. Y así sucesivamente hasta el objeto document.  
 
 
