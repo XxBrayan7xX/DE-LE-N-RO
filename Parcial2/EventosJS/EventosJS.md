@@ -23,10 +23,11 @@ Este proceso se conoce como propagacion porque los eventos se propagan desde el 
 La mayoria de eventos se propagan, pero no todos (como el evento *focus*).  
 
 ### Detener propagacion  
-Una propagacion de evento empieza desde el elemento objetivo hacia arriba. Normalmente este continua hasta {html} y luego hacia el objeto *document*,  
-algunos eventos incluso alcanzan *window*, llamando a todos los manejadores en el camaino.  
+Una propagacion de evento empieza desde el elemento objetivo hacia arriba. Normalmente este continua hasta {html} y luego hacia el  
+objeto *document*, algunos eventos incluso alcanzan *window*, llamando a todos los manejadores en el camaino.  
 Pero cualquier manejador podria decidir que el evento se a procesado por completo y detener su propagacion.
 Para ello se utiliza el metodo *event.stopPropagation()*.  
-Esto no es recomendale a menos qe se tenga una necesidad real, obvia y arquitectonicamente bien pensada. Ya que podria convertirse en un problema a la hora ade querer realizar otras acciones.
+Esto no es recomendale a menos qe se tenga una necesidad real, obvia y arquitectonicamente bien pensada. Ya que podria convertirse   
+en un problema a la hora ade querer realizar otras acciones.
 
 
