@@ -22,11 +22,13 @@ align-content:center;
     width: 180px;
     height: 130px;
 }
+/*
 #caja1{
     
- /*grid-column: 1/ span 3;*/
+ grid-column: 1/ span 3;
     background-color: darkslategrey;
 }
+    */
 .cajaAzul{
     background-color: blue;
 }

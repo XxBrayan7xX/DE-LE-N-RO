@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="PracticaGrid.css">
     <title>Practica Grid1</title>
     <title></title>
@@ -18,14 +19,19 @@
     </div>
     <script>
 
-        window.onload = function ()
+        /*window.onload = function ()
         {
             document.getElementById("ContenedorGeneral").addEventListener("click",function(evento) {
                 console.log(evento.target.id);
                 document.getElementById(evento.target.id).classList.toggle("cajaAzul");
             });
-        }
-
+        }*/
+        $(document).ready(function() {
+            $('#ContenedorGeneral').click(function(e) {
+                console.log(e);
+                $(e.target).toggleClass('cajaAzul');
+            });
+        });
     </script>
 </body>
 </html>
