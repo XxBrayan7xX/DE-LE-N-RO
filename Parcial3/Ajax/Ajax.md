@@ -1,3 +1,4 @@
+***Brayan Asahel De León Romero - 19100166***
 # AJAX  
 ## ¿Que es?
 Asynchronous JavaScript and XML se refiere a un grupo de tecnologias    
@@ -20,7 +21,7 @@ y JScript**, para mostar e interactuar dinámicamente con la información presenta
 el servidor web.
 - **XML, HTML, XSLT** para el intercambio y la maniulación de datos.  
 - Se visualiza Java Script para enlazar solicitudes e información de datos.  
-*Ajax* incorpora estas tecnologías para crear un nuevo enfoque al desarrollo   
+***Ajax*** incorpora estas tecnologías para crear un nuevo enfoque al desarrollo   
 de aplicaciones web. Ajax define un método de iniciar un cliente con la comunicación  
 del servidor sin recargas de páginas. Proporciona una forma de permitir actualizaciones  
 de página parciales. Desde una perspectiva de usuario de página web, significa que la  
@@ -40,21 +41,25 @@ con el servidor en nombre del usuario.
 
 ### Limitaciones de Ajax  
 Representan algunas de las desventajas principales:  
-- *Soporte de navegador:* No todos los navegadores admiten JavaScript o el objeto  
+- **Soporte de navegador:** No todos los navegadores admiten JavaScript o el objeto  
 XMLHttpRequest. Incluso entre navegadores que no ofrecen soporte a JavaScript y   
 XMLHttpRequest, estos objetos se pueden tratar de forma diferente. Se deben tener   
 en cuenta todas las implementaciones del navegador de Ajax.
-- *Seguridad y privacidad de usuario:* No se resuelven todos los puntos de vista. Es   
+- **Seguridad y privacidad de usuario:** No se resuelven todos los puntos de vista. Es   
 necesario tener en cuenta los problemas relacionados con la seguridad y la privacidad   
 de usuario a la hora de desarrollar una aplicación Ajax.
-- *Accesibilidad:* Puesto que no todos los navegadores disponen de soporte para JavaScript  
+- **Accesibilidad:** Puesto que no todos los navegadores disponen de soporte para JavaScript  
 o el objeto XMLHttpRequest, debe asegurarse de proporcionar una manera de hacer que la   
 aplicación web sea accesible para todos los usuarios.
-- *Marcador y navegación:* Puesto que Ajax se utiliza para cargar bits de contenido de   
+- **Marcador y navegación:** Puesto que Ajax se utiliza para cargar bits de contenido de   
 forma asíncrona en una página existente, es posible que parte de la información de la  
 página no corresponda a una página recién cargada. Puede que el historial del navegador 
 y los marcadores no se comporten de forma correcta porque el URL no se ha modificado  
 aunque ciertas partes de la página se hayan cambiado.  
-- *Motor de búsqueda:* No es posible realizar búsquedas en aplicaciones Ajax; sin embargo, 
+- **Motor de búsqueda:** No es posible realizar búsquedas en aplicaciones Ajax; sin embargo, 
 sí se pueden utilizar las características y elementos de Ajax de una aplicación en la que   
 se puedan realizar búsquelas.
+
+**Linkografía:**  
+https://es.wikipedia.org/wiki/AJAX  
+https://www.ibm.com/docs/es/rational-soft-arch/9.6.1?topic=page-asynchronous-javascript-xml-ajax-overview
