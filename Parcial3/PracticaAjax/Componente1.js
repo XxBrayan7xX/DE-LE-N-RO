@@ -36,7 +36,7 @@ $(document).ready(function () {
             // cuando cambie el status del objeto XMLHttpRequest
 
             if (solicitudAjax.readyState == 4 && solicitudAjax.status == 200) {                 // La respueta esta lista
-                document.getElementById("MyDiv").innerHTML = solicitudAjax.responseText;  // La propiedad responseText tiene la respuesta en texto
+                document.getElementById("divGema").innerHTML = solicitudAjax.responseText;  // La propiedad responseText tiene la respuesta en texto
             }
         };
 
