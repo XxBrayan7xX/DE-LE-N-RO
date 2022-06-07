@@ -1,4 +1,5 @@
 <?php
+$ID = $_POST['ID'];
 $VINumber = $_POST['VINUMBER'];
 $Marca = $_POST['MARCA'];
 $Modelo = $_POST['MODELO'];
@@ -6,7 +7,7 @@ $Motor = $_POST['MOTOR'];
 $Fabricante = $_POST['FABRICANTE'];
 $Pais = $_POST['PAIS'];
 $Color = $_POST['COLOR'];
-$Placaas = $_POST['PLACAAS']
+$Placaas = $_POST['PLACAAS'];
 $hostname='localhost';
 $database='19100166';
 $username='root';
@@ -24,7 +25,7 @@ try{
 
 try{
     
-    $consultaSql = "update carros set VINumber=$VINumber, Marca=$Marca, Modelo=$Modelo,Motor=$Motor, Fabricante=-$Fabricante, Pais=$Pais, Color=$Color, Placaas=$Placaas;
+    $consultaSql = "update carros set VINumber='$VINumber', Marca='$Marca', Modelo=$Modelo,Motor=$Motor, Fabricante='$Fabricante', Pais='$Pais', Color='$Color', Placaas='$Placaas' WHERE ID=$ID";
     $consulta = $con -> prepare($consultaSql);
     $consulta -> execute();
     $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
